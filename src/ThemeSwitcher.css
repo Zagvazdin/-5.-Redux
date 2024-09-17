@@ -1,0 +1,18 @@
+/* ThemeSwitcher.css */
+.exploding {
+    animation: explode 0.5s forwards;
+  }
+  
+  @keyframes explode {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(0);
+      opacity: 0;
+    }
+  }
+  
